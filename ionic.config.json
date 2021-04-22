@@ -1,0 +1,7 @@
+{
+  "name": "jpLearn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
