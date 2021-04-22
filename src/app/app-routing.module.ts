@@ -5,11 +5,11 @@ import { NgModule } from '@angular/core';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home/Inbox',
     pathMatch: 'full',
   },
   {
-    path: 'folder/:id',
+    path: 'home/:id',
     loadChildren: () =>
       import('./home/home.module').then((m) => m.HomePageModule),
   },
