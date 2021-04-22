@@ -16,6 +16,7 @@ export class AppComponent {
     { title: 'Email Us', url: '/home/EmailUs', icon: 'archive' },
     { title: 'Call Dorm Office', url: '/home/CallDomOffice', icon: 'call' },
     { title: 'Face Book', url: '/home/FaceBook', icon: 'warning' },
+    { title: 'Home', url: '/', icon: 'home' },
   ];
   // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
